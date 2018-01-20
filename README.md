@@ -1,2 +1,1 @@
-# myhackerrankcode
-my code for hackerrank submissions
+https://www.hackerrank.com/quantummole

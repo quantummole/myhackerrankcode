@@ -71,13 +71,11 @@ def stringSimilarity(s):
         elif i + z[pair_index] <= rt:
             z[i] = z[pair_index]
         else:
-            print(i,z[pair_index],lt,rt)
             z[i] =  rt - i + 1 
             while i+z[i] < n and s[i+z[i]] == s[z[i]]:
                 z[i]+=1
             rt = i + z[i] - 1
             lt = i
-    print(z)
     return sum(z)
     
 if __name__ == '__main__':
